@@ -1,10 +1,5 @@
-
 const Right = () => {
-    return (
-        <div>
-            Right !!
-        </div>
-    );
+  return <div>Right</div>;
 };
 
 export default Right;

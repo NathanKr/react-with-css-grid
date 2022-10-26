@@ -15,10 +15,8 @@ const ComplexGrid = () => {
         <div className={styles.item2}>
           <Menu />
         </div>
-        <div>
-          <div className={styles.item3}>
-            <Main />
-          </div>
+        <div className={styles.item3}>
+          <Main />
         </div>
         <div className={styles.item4}>
           <Right />
