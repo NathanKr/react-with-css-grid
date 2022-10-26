@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  /* grid-template-areas:
+    "Top Top Top Top Top Top"
+    "Add Add Changing Changing Changing Changing"
+    "Week Week Changing Changing Changing Changing"; */
+    grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.App div {
+  border: 2px solid aqua;
+  box-sizing: border-box;
+}
